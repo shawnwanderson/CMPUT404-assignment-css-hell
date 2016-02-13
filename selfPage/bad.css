@@ -1,7 +1,7 @@
 
 body {
-	font-family: 'Open Sans Light', Helvetica, Arial, sans-serif;
-	font-weight: 200;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
 	line-height: 1;
 	margin: 0 !important;
 	padding: 0 !important;
@@ -15,10 +15,32 @@ p, h2, h3, h4, h5 {
 
 }
 
+.dog_cat {
+	position: absolute;
+	top: 6.4em;
+	left: 8em;
+}
+.cat {
+	position: absolute;
+	top: 60em;
+	right: 0px;
+}
+.beta {
+	position: relative;
+	left: 60em;
+	
+}
 
 p {
 	line-height: 2.0;
 	padding-bottom: 2em;
+}
+
+.welcome {
+	font-size: 140%;
+	background: #FF1493;
+	font-weight: bold;
+	width: 50em;
 }
 
 a {
@@ -41,9 +63,13 @@ p .text {
 	background: #2C3E50;
 }
 
+img {
+	padding-bottom: 1em;
+}
+
 header {
     text-align: center;
-    height: 6em;
+    height: 18em;
     padding: 0;
     background: blue;
     color: #fff;
@@ -70,21 +96,21 @@ nav a{
 
 /* http://weebtutorials.com/theBlog/?p=103 */
 #sideBar {
-color:#c3c3c3;
-font-family:Tahoma, Geneva, sans-serif;
-background:#eff3f0;
+color:white;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+background:gold;
 border:thin solid #e8ece9;
 width:200px;
 padding:14px;
 position:absolute;
-top:10em;
+top:18em;
 right:0;
 }  /* Change color and font*/
 
 
 
 #sideBar h2{
-font-family:Trebuchet MS1, Helvetica, sans-serif;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
 margin-top:0;
 width: 10em;
 font-size: 141%;
@@ -96,12 +122,15 @@ padding:0;
 margin:0;
 margin-left:25px;
 margin-left:33px;
-list-style: url(arrow.png);
+list-style: none;
 } /*Reset the default padding/margin and set it as required*/
 
-
-
-
+#sideBar li {
+	color: green;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	line-height: 4;
+}
 
 #sideBar ul li a:hover{
 color:#e0993e;
